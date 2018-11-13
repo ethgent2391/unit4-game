@@ -9,8 +9,9 @@ console.log(goal);
 $("#selector").text('Goal: ' + goal);
 
 //4 crystals with random values. 1-20
+//look  into for eaach
 for(var i = 0; i < 4; i++){
-    var random = Math.floor(Math.random() * 11) +1;
+    var random = Math.floor(Math.random() * 29) +1;
     var crystal = $(".crystalpics");
         crystal.attr({
             "value": random
